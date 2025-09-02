@@ -7,8 +7,9 @@ class Sandalwood{
 	for(i=0;i<sandalwoodMovies.length;i++){
 	System.out.println(" the sandalwoodMovies is:"+sandalwoodMovies[i]);
   }
+  
   //for loop(reverse)
-  for(i=sandalwoodMovies.length-1;i>0;i--){
+  for(i=sandalwoodMovies.length-1;i>=0;i--){
 	System.out.println(" the sandalwoodMovies is:"+sandalwoodMovies[i]);
   }
 	

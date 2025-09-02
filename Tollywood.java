@@ -5,11 +5,12 @@ public static void main(String[] args){
     for(i=0;i<tollywoodMovies.length;i++){
 	System.out.println( "the tollywood movies is :"+tollywoodMovies[i]);
 	}
-	/*
+	
 //	for loop reverse
-    for(i=tollywoodMovies.length-1;i>0;i--){
+    for(i=tollywoodMovies.length-1;i>=0;i--){
 	System.out.println(" the tollywoodMoviesis :"+tollywoodMovies[i]);
 	}
+	/*
 	
 //for each statement
   for(String movie: tollywoodMovies){
