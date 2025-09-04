@@ -1,0 +1,187 @@
+1.java is object oriented pogram 
+2.Bytecode is when a program is compiled it created a bytecode (.class file)
+3.jdk architecture is a java development kit is used to execute a java program.In the jdk having a 
+   2 types namely
+   1) Jre
+   2)Build tools
+   in Jre is a java run time environment is used to excute a java program 
+   whereas build tools having java,jars,javadocs,javac
+  In jre having a JVM and set of libraries
+   in jvm is a java virtual machine that jvm needs to execute a java program and jvm perform as  independent
+   and set of libraries taht reads machine understandable language.
+4)java need jvm to excute a program and 
+jvm is a java virtual machine that jvm needs to execute a java program and jvm perform as  independent
+
+5)variables is refers to the name given to the memory address
+  4 types
+  1.local varibles
+  2.static variables
+  3.non static variables
+  4.parameterised variables
+  
+  local variables is refers to declared inside the main method and that accessed inside that method.
+   ex. class One{
+       public static void main(Sring[] args){
+	   int price=563;
+	   System.out.println("the price s ;"+price);
+	   }
+	   }
+   static variables is refers to that declaration or initialisation at the level of class.
+   ex.class one{
+	   static int price=387;
+	   public static void main(String[] args){
+      	System.out.println("the price s ;"+price);
+	   }
+
+   }
+
+
+6)Datatype is a data that variable refers is called datatype.
+   2 types
+   1.primitive data types
+   2.non primitive data types
+    primitive data type is a predefined data type which as a fixed sizand it is having 8 types
+	non primitive data type is also  predefined data type which as no fixed size and it is having 3 types
+	1.primitive data types
+	   byte=1 byte=8bits=-128 to 127
+	   short=2byte=16bits=
+	   int=4 byte=32 bits=-3545to3545
+	   long=8 byte=64 bits=5132524675l
+	   char=2 byte=16bits
+	   float=4bytes=32bits=6 to 7
+	   double=8byte=64 bits=8 to 9
+	   boolean=1 byre=true or false
+	  
+	2.non primitive data types
+      string
+      array
+      custom class
+
+7)array is collection of elements of same data types
+  	  
+	   ex.class One{
+       public static void main(Sring[] args){
+	   String name[]={"sagar","prajwal","sri","om"};
+	   System.out.println("the name is  ;"+name[2]);
+	   }
+	   }
+	   
+8) local variables is refers to declared inside the main method and that accessed inside that method.
+   ex. class One{
+       public static void main(Sring[] args){
+	   int price=563;
+	   System.out.println("the price s ;"+price);
+	   }
+	   }
+   static variables is refers to that declaration or initialisation at the level of class.
+   ex.class one{
+	   static int price=387;
+	   public static void main(String[] args){
+      	System.out.println("the price s ;"+price);
+	   }
+
+   }
+   
+9)methods is a block of code which performs a some specific task is known as method.
+
+
+10)static method is a method that declare a inside a level of class.
+    ex.class Two{
+      static byte num=123;
+      static int price=6521;
+      static char series=69;
+      static boolean isAvailable=false;
+	  public static void main(String[] args){
+		  num=23;
+		  price=3456;
+      	System.out.println("the price s ;"+price);
+      	System.out.println("the number s ;"+num);
+      	System.out.println(Three.series);
+		
+	  }
+	}
+	
+	
+	class Three{
+		static char series="A";
+		 public static void main(String[] args){
+			 System.out.println("the series s ;"+series);
+		 }
+	}
+	
+11)method chaining is a refers to that circulating the every method.
+   ex.	class Room1{
+       public static void enterHotel(){
+       System.out.println("entering the hotel ");
+       ticketBooking();
+       }
+		public static void ticketBooking(){
+		System.out.println("first ticket booking");
+		enterRoom();
+		}
+		public static void enterRoom(){
+		System.out.println("enter the room");
+		orderFood();
+		}
+		public static void orderFood(){
+		System.out.println("eating the food");
+		checkOut();
+		}
+		public static void checkOut(){
+		System.out.println("checkout the hotel");
+		}
+		public static void main(String[] args){
+		enterHotel();
+		}
+		}
+
+12)default value means that having a their value of size	
+    in local variable thadata types having their own size and no default values
+	whereas the static variable having the default values
+	like short,byte,int,long as 0 defaultvalue
+	char has blank space
+	float and double have 0.0 default values
+    boolean have false		
+		  
+		  
+13)local variable example
+		  class Four{
+			  public static void main(String[] args){
+				  int price=234;
+				  long number=5365565678l;
+				  number=7476467676l;
+				  char series="C";
+				  float gst=4328.764f;
+				  double sgst=52666.98675663d;
+				  boolean isAvailable=true;
+				  
+				  System.out.println("the price is :"+price);
+				  System.out.println("the number is :"+number);
+				  System.out.println("the series is :"+series);
+				  System.out.println("the gst is :"+gst);
+				  System.out.println("the sgst is :"+sgst);
+				  System.out.println("the available is :"+isAvailable);
+			  }
+		  }
+				  
+				  
+  static variable example 
+  class Two{
+      static byte num=123;
+      static int price=6521;
+      static char series=69;
+      static boolean isAvailable=false;
+	  public static void main(String[] args){
+		  num=23;
+		  price=3456;
+      	System.out.println("the price s ;"+price);
+      	System.out.println("the number s ;"+num);
+		
+	  }
+	}
+	
+		  
+	  
+	   
+	   
+	   
