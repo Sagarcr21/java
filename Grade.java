@@ -3,7 +3,7 @@ public static void main(String[] args){
   char grade='B';
   grade='C';
  switch(grade){
-  
+ 
   
   case 'A':
                 System.out.println("the grade is A");

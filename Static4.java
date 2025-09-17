@@ -24,7 +24,7 @@ System.out.println(gst);
 System.out.println(sgst);
 System.out.println(series);
 System.out.println(isAvailable);
-System.out.println(Staticc.number);
-
+short name=Staticc.number;
+System.out.println(name);
 }
 }

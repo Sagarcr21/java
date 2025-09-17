@@ -27,10 +27,10 @@ class Two2 {
         return 56789.123;
     }
 
-    public static boolean getBooleanValue1() {
+    public static boolean getBooleanValue() {
         return true;
     }
-	public static String getStringValue1(){
+	public static String getStringValue(){
 		return "sagarcr";
 	}
 	

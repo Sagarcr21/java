@@ -1,6 +1,6 @@
 class Three3 {
     public static byte getBytenumber() {
-		return 4;
+		return 4/2;
     }
 
     public static short getShortcarno() {
