@@ -1,16 +1,13 @@
 class Pen {
-    static int total;
+   
 
     public static void main(String[] args) {
-        System.out.println("The price of the pen is:");
-        System.out.println(cost("cello"));   
-
-        cost("parker", 5);  
-        cost(total);         
+        int [] no=cost(123456l);
+System.out.println(no[1]);		
     }
 
     
-    public static int cost(String penName) {
+   /* public static int cost(String penName) {
         if (penName==("cello")) {
             return 15;
         }
@@ -29,10 +26,12 @@ class Pen {
         total = p * qnty;
         System.out.println("The name of the pen: " + pen);
         System.out.println("The quantity of pens: " + qnty);
-    }
+    }*/
 
 
-    public static void cost(int total) {
-        System.out.println("The total pen price: " + total);
+    public static int[] cost(long phnNumber) {
+		System.out.println(phnNumber);
+        int slNo[]={1,3,4,5,6};
+		return slNo;
     }
 }

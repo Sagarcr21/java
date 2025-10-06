@@ -1,5 +1,9 @@
 class Bottle{
+	Bottle(){
+System.out.println("signature");
+	}
 public static void main(String[] atgs){
+	new Bottle();
 System.out.println(name("signature"));
 int  total=name("signature",2);
 System.out.println(total);
@@ -30,6 +34,6 @@ return 25*noOfbottles;
 return 0;
 }
 public static void name(int bottlePrice){
-System.out.println("the total bottlePrice is "+bottlePrice);
+System.out.println("the total bottlePrice is "	);
 }
 }
