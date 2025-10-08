@@ -8,6 +8,12 @@ float gst;
 double sgst;
 boolean isAvailable;
 String name;
+Toyota(){
+		System.out.println("name");
+}
+Toyota(String name){
+	System.out.println(name);
+	}
 public static void main(String [] args){
 	Toyota obj=new Toyota();
 	obj.id=3;
@@ -36,5 +42,7 @@ public static void main(String [] args){
     Toyota obj8=new Toyota();
 	obj8.name="Toyota highraider";
 	System.out.println("the car name is :"+obj8.name);
+	System.out.println("the car price is :"+obj8.series);
+	Toyota object=new Toyota("sagar");
 }
 }

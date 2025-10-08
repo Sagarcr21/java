@@ -1,5 +1,5 @@
 class Student {
-    byte id;
+    byte id=10;
     short age;
     int marks;
     long regNo;
@@ -11,7 +11,7 @@ class Student {
 
     public static void main(String[] args) {
         Student obj = new Student();
-        obj.id = 10;
+        
         System.out.println("The student id is: " + obj.id);
 
         Student obj1 = new Student();
