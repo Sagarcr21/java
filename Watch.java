@@ -26,7 +26,7 @@ class Watch {
         w1.id = 200;
         w1.price = 15000;
         w1.brand = "Noise";
-        w1.isSmart = true;
+        w1.isSmart;
 
         System.out.println("Watch ID: " + w1.id);
         System.out.println("Watch Price: " + w1.price);

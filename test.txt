@@ -1,0 +1,30 @@
+1.4 types of variable
+  a.local variable--->it is variable that declared and intialise inside of the class and it doenot have  default value
+  b.static variable-->it is a variable that declared and intialised at the level of class and it is have a default value
+  c.parameterised variable-->it is a variable that declared inside a method 
+  d.instatnce variable---> it is a variable that declared inside a class of objects but outside any method.
+2.default value of instance variable is
+   int,byte,short,long=0
+   char=blank space
+   float,double=0.0
+   boolean=false
+3.No the local variable cannot produce the default value.
+4.yes we can access the static variable in java by the creating the object of the class.
+ example
+  class Example{
+   Static int price=879;
+   public static void mian(String [] args){
+   System.out.println(Example.price);
+   System.out.println(price);
+   }
+   }
+5. no the a non static variable inside a static variable because in non static variable the exist when the object of the class is created.b
+but in static variable if even the class is created or not.overall we can say by  creating a object we can access the non static in static variable.
+6.method overloading is that having a same method name but different parameter and may have any return type.
+ consrructor overloading is that same constructor ,different parameter and doest not have return type. 
+9.static variable-->it is a variable that declared and intialised at the level of class and it is have a default value and shared the objects among all the class of objects 
+example
+classname.variablename;
+  instatnce variable---> it is a variable that declared inside a class of objects but outside any method.and each objects has a its own copy
+  example=
+  object.variablename;
