@@ -1,19 +1,15 @@
 class Mammal {
-    public static void warmBlooded() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("mammals are warm-blooded");
+    public void eat() {
+        System.out.println("the mammal eats");
     }
-    public static void feed() {
-        System.out.println("mammals feed their young");
+    public void sleep() {
+        System.out.println("the mammal sleeps");
     }
     public void walk() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("mammals walk on land");
+        System.out.println("the mammal walks");
     }
     public void sound() {
-        System.out.println("mammals make sounds");
+        System.out.println("the mammal makes a sound");
     }
 }
 

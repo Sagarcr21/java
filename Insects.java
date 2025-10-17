@@ -1,18 +1,18 @@
-class Insects{
-public static void bytes(){
-System.out.println("static mehod");
-System.out.println("------------");
-System.out.println("insects bytes");
+class Insects {
+    public void bytes() {
+        System.out.println("the insect bytes");
+    }
+    public void sleep() {
+        System.out.println("the insect sleeps");
+    }
+    public void fly() {
+        System.out.println("the insect flies");
+    }
+    public void sound() {
+        System.out.println("the insect sounds");
+    }
 }
-public static void sleep(){
-System.out.println("insects sleeps");
-}
-public void fly(){
-System.out.println("non static mehod");
-System.out.println("------------");
-System.out.println("insects flies");
-}
-public void sound(){
-System.out.println("insects sounds");
-}
-}
+
+
+
+   

@@ -1,19 +1,18 @@
 class Bird {
-    public static void wings() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("birds have wings");
+    public void eat() {
+        System.out.println("the bird eats");
     }
-    public static void rest() {
-        System.out.println("birds rest on trees");
+    public void sleep() {
+        System.out.println("the bird sleeps");
     }
     public void fly() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("birds fly in the sky");
+        System.out.println("the bird flies");
     }
-    public void sing() {
-        System.out.println("birds sing sweetly");
+    public void sound() {
+        System.out.println("the bird sounds");
     }
 }
+
+
+
 

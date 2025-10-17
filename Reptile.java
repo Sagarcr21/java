@@ -1,19 +1,16 @@
 class Reptile {
-    public static void coldBlooded() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("reptiles are cold-blooded");
+    public void eat() {
+        System.out.println("the reptile eats");
     }
-    public static void crawl() {
-        System.out.println("reptiles crawl on ground");
+    public void sleep() {
+        System.out.println("the reptile sleeps");
     }
-    public void shedSkin() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("reptiles shed their skin");
+    public void crawl() {
+        System.out.println("the reptile crawls");
     }
-    public void hiss() {
-        System.out.println("reptiles make hissing sounds");
+    public void sound() {
+        System.out.println("the reptile makes a hissing sound");
     }
 }
+
 

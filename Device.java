@@ -1,19 +1,15 @@
 class Device {
-    public static void info() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("Devices are used for communication and processing");
+    public void turnOn() {
+        System.out.println("the device turns on");
     }
-    public static void charge() {
-        System.out.println("Devices need charging");
+    public void turnOff() {
+        System.out.println("the device turns off");
     }
-    public void powerOn() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("Device is powered on");
+    public void operate() {
+        System.out.println("the device operates");
     }
-    public void powerOff() {
-        System.out.println("Device is powered off");
+    public void sound() {
+        System.out.println("the device makes a sound");
     }
 }
 

@@ -1,19 +1,16 @@
-class Hospitals {
-    public static void about() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("Hospitals provide medical care");
+class Hospital {
+    public void open() {
+        System.out.println("the hospital opens");
     }
-    public static void timings() {
-        System.out.println("Hospital is open 24 hours");
+    public void close() {
+        System.out.println("the hospital closes");
     }
-    public void admitPatient() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("Patient admitted successfully");
+    public void treat() {
+        System.out.println("the hospital treats patients");
     }
-    public void dischargePatient() {
-        System.out.println("Patient discharged successfully");
+    public void sound() {
+        System.out.println("the hospital makes alert sounds");
     }
 }
+
 

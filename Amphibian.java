@@ -1,19 +1,15 @@
-class Amphibian {
-    public static void habitat() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("amphibians live both in water and on land");
+class Amphibians {
+    public void eat() {
+        System.out.println("the amphibian eats");
     }
-    public static void reproduce() {
-        System.out.println("amphibians lay eggs in water");
+    public void sleep() {
+        System.out.println("the amphibian sleeps");
     }
     public void jump() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("frogs can jump long distances");
+        System.out.println("the amphibian jumps");
     }
-    public void croak() {
-        System.out.println("frogs make croaking sounds");
+    public void sound() {
+        System.out.println("the amphibian makes a croaking sound");
     }
 }
 

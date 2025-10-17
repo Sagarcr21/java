@@ -1,19 +1,15 @@
 class Machine {
-    public static void details() {
-        System.out.println("static method");
-        System.out.println("------------");
-        System.out.println("machines help to ease human work");
-    }
-    public static void operate() {
-        System.out.println("machines are operated by humans or automatically");
-    }
     public void start() {
-        System.out.println("non static method");
-        System.out.println("------------");
-        System.out.println("machine has started");
+        System.out.println("the machine starts");
     }
     public void stop() {
-        System.out.println("machine has stopped");
+        System.out.println("the machine stops");
+    }
+    public void operate() {
+        System.out.println("the machine operates");
+    }
+    public void sound() {
+        System.out.println("the machine makes a sound");
     }
 }
 
