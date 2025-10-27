@@ -49,11 +49,20 @@ Object oriented references data types is a not a predefined data
  parameterized variable
  
  
+ 1.Method overriding occurs when a child class provides a new implementation of a method already defined in its parent class.
+ 2.Method overloading means having multiple methods with the same name but different parameters
+ 3.Constructor overloading occurs when a class has multiple constructors with different parameter lists.
+ 4.Inheritance is in which inherits the proprties of one class to anpther class
+ 5.a constructor is a special method that is used to initialize objects of a class. It has the same name as the class and does not have a return type,
  
- 
- 
- 
- 
+ | Concept                     | Meaning                                         | When it Happens        | Keyword/Condition          | Example                                   |
+| --------------------------- | ----------------------------------------------- | ---------------------- | -------------------------- | ----------------------------------------- |
+| **Method Overriding**       | Redefining parent method in child class         | Runtime                | Inheritance (`extends`)    | `Dog extends Animal`                      |
+| **Method Overloading**      | Same method name, different parameters          | Compile-time           | Same class                 | `add(int, int)` and `add(double, double)` |
+| **Constructor Overloading** | Multiple constructors with different parameters | Compile-time           | Same class                 | `Student()` and `Student(String)`         |
+| **Inheritance**             | One class inherits another                      | Compile-time           | `extends`                  | `Car extends Vehicle`                     |
+| **Polymorphism**            | One object behaves in many forms                | Runtime & Compile-time | Parent reference for child | `Animal a = new Dog()`                    |
+
  
  
  
