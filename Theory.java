@@ -54,6 +54,7 @@ Object oriented references data types is a not a predefined data
  3.Constructor overloading occurs when a class has multiple constructors with different parameter lists.
  4.Inheritance is in which inherits the proprties of one class to anpther class
  5.a constructor is a special method that is used to initialize objects of a class. It has the same name as the class and does not have a return type,
+ Constructor Chaining in Java is the process of calling one constructor from another constructor within the same class or from the parent class.
  
  | Concept                     | Meaning                                         | When it Happens        | Keyword/Condition          | Example                                   |
 | --------------------------- | ----------------------------------------------- | ---------------------- | -------------------------- | ----------------------------------------- |
